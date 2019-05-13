@@ -11,7 +11,7 @@ script:
 deploy:
   username: ${AZURE_WA_USERNAME}
   provider: azure_web_apps
-  password: ${AZURE_WA_PASSWORD
+  password: ${AZURE_WA_PASSWORD}
   site: 'travisflask'
   skip_cleanup: true
   verbose: true  
