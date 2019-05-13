@@ -8,10 +8,10 @@ before_install:
 script:
  - docker run flasktest python3 test.py
 
+
 deploy:
-  username: MukundhBhushan
   provider: azure_web_apps
-  password: Nebula@12
-  site: 'travisflask'
-  skip_cleanup: true
-  verbose: true  
+  username: "MukundhBhushan"       # If AZURE_WA_USERNAME isn't set
+  password: "Nebula@12"   # If AZURE_WA_PASSWORD isn't set
+  site: "travisflask"       # If AZURE_WA_SITE isn't set
+  verbose: true
