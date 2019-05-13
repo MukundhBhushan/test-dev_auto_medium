@@ -9,9 +9,9 @@ script:
  - docker run flasktest python3 test.py
 
 deploy:
-  username: $AZURE_WA_USERNAME
+  username: 'MukundhBhushan'
   provider: azure_web_apps
-  password: $AZURE_WA_PASSWORD
+  password: 'Nebula@12'
   site: 'travisflask'
   skip_cleanup: true
   verbose: true  
