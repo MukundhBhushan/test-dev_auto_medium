@@ -10,7 +10,6 @@ script:
 
 deploy:
   provider: azure_web_apps
-  username: "MukundhBhushan"     
-  password: "Nebula@12"   
-  app: "flaskauto"
+  username: ${username}     
+  password: ${password}   
   site: https://flaskauto.azurewebsites.net    
