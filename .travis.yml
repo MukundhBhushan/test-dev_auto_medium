@@ -12,6 +12,6 @@ script:
 deploy:
   provider: azure_web_apps
   username: "MukundhBhushan"       # If AZURE_WA_USERNAME isn't set
-  password: "Nebula@12"   # If AZURE_WA_PASSWORD isn't set
+  password: ""   # If AZURE_WA_PASSWORD isn't set
   site: "travisflask"       # If AZURE_WA_SITE isn't set
   verbose: true
