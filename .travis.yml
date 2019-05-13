@@ -10,6 +10,5 @@ script:
 
 deploy:
   provider: azure_web_apps
-  username: ${username}     
-  password: ${password}   
-  site: https://flaskauto.azurewebsites.net    
+  skip_cleanup: true
+  verbose: true  
