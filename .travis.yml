@@ -7,3 +7,10 @@ before_install:
   - docker build -t flasktest .
 script:
  - docker run flasktest python3 test.py
+
+deploy:
+  provider: azure_web_apps
+  username: "MukundhBhushan"     
+  password: "Nebula@12"   
+  app: "flaskauto"
+  site: https://flaskauto.azurewebsites.net    
